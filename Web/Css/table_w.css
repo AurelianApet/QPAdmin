@@ -1,0 +1,873 @@
+body[lang='cs'] {
+	font-family: Arial, Helvetica, sans-serif, Tahoma, "ãæá¬Ù¥ô÷", "á¬Ù¥ô÷";
+}
+body[lang='ch'] {
+	font-family: Arial, Helvetica, sans-serif, Tahoma, "ãæá¬Ù¥ô÷", "á¬Ù¥ô÷";
+}
+#containerTwo {
+	width: 809px; float: left; display: block;
+}
+.column3 {
+	width: 100%; border-collapse: collapse;
+}
+.column3_75 {
+	width: 564px; border-collapse: collapse;
+}
+.Refresh_button {
+	width: 770px;
+}
+.code {
+	margin-bottom: -3px;
+}
+table td {
+	padding: 0px;
+}
+a {
+	text-decoration: none;
+}
+.select_Line {
+	border: 1px rgb(232, 232, 232); color: rgb(102, 102, 102); font-family: Arial, Helvetica, sans-serif, Tahoma; font-size: 11px; background-color: rgb(232, 232, 232);
+}
+.input {
+	border: 1px solid rgb(153, 153, 153) !important; color: rgb(102, 102, 102); font-family: Arial, Helvetica, sans-serif, Tahoma; font-size: 11px; margin-left: 2px;
+}
+.line_divL {
+	padding-left: 2px; float: left; display: inline;
+}
+.line_divR {
+	text-align: right; padding-right: 2px; float: right; display: inline;
+}
+.Soccer {
+	background: url("/images/icon_h1arrow.gif") no-repeat left -1px; padding: 2px 2px 2px 20px; color: rgb(160, 3, 3); text-indent: 5px; font-size: 13px; font-weight: bold; margin-top: 1px; float: left;
+}
+.Soccer1 {
+	background-position: -4px 0px; width: 0px; padding-bottom: 0px; margin-top: 5px; margin-bottom: 0px; float: left; background-repeat: no-repeat;
+}
+.Soccer1 span {
+	display: none;
+}
+.pop_border_d {
+	border-bottom-color: rgb(255, 255, 255); border-bottom-width: 110px; border-bottom-style: dashed;
+}
+.pop_border_top {
+	border-top-color: rgb(255, 255, 255); border-top-width: 110px; border-top-style: dashed;
+}
+.pop_border_div {
+	border: 5px solid rgb(255, 255, 255) !important; width: 560px; background-color: rgb(251, 214, 80);
+}
+.pop_border_div input {
+	color: rgb(251, 214, 80); font-family: Arial, Helvetica, sans-serif, Tahoma; font-size: 11px; background-color: rgb(251, 214, 80);
+}
+.Reslut_Head {
+	margin-top: 0px; margin-bottom: 0px; margin-left: 10px;
+}
+.Reslut_Head a {
+	font-weight: bold; text-decoration: none;
+}
+.Result {
+	color: rgb(235, 7, 0); padding-left: 5px; font-size: 11px;
+}
+.tabtitle {
+	height: 15px; color: rgb(67, 2, 0); text-indent: 0px; font-size: 11px; font-weight: bold; background-color: rgb(255, 225, 117);
+}
+.box01 .border {
+	height: 15px; color: rgb(67, 2, 0); text-indent: 0px; font-size: 11px; font-weight: bold; background-color: rgb(255, 225, 117);
+}
+.tabtitle_Result {
+	left: 20px; color: rgb(102, 102, 102); text-indent: 1px; font-size: 11px; font-weight: bold; background-color: rgb(255, 255, 255);
+}
+.tabtitle-Left {
+	height: 15px; color: rgb(102, 102, 102); text-indent: 50px; font-size: 11px; font-weight: bold; background-color: rgb(223, 223, 223);
+}
+table_1px.tabstyle01 {
+	border: 1px solid rgb(163, 179, 217); color: rgb(102, 102, 102); font-size: 65%; word-spacing: 0px;
+}
+.tabstyle01 th {
+	padding: 2px; text-align: left; color: rgb(102, 102, 102); font-size: 11px; font-weight: bold; border-bottom-color: rgb(163, 179, 217); border-bottom-width: 1px; border-bottom-style: solid; background-image: url("/images/tab_th03.gif"); background-repeat: repeat-x;
+}
+.tabstyle01 td {
+	padding: 2px 4px; background-color: rgb(255, 255, 255);
+}
+.tabstyle01 a:link {
+	color: rgb(43, 89, 25);
+}
+.tabstyle01 a:visited {
+	color: rgb(43, 89, 25);
+}
+.tabstyle01 a:hover {
+	color: rgb(255, 102, 0);
+}
+.tabstyle02 {
+	margin: 0px; border: 0px solid rgb(0, 0, 0); padding-left: 5px; font-size: 11px;
+}
+.tabstyle02 th {
+	padding: 5px; text-align: center; color: rgb(102, 102, 102); font-size: 11px; font-weight: bold; border-right-color: rgb(193, 52, 52); border-bottom-color: rgb(193, 52, 52); border-right-width: 1px; border-bottom-width: 1px; border-right-style: solid; border-bottom-style: solid;
+}
+.tabstyle03 th {
+	padding: 2px; height: 18px; text-align: center; color: rgb(255, 255, 255); font-size: 11px; font-weight: normal; background-image: url("/images/tab03_thbg.png"); background-repeat: repeat-x; background-color: rgb(161, 1, 1);
+}
+.tabstyle03_Horse th {
+	padding: 2px 4px !important;
+}
+.tabstyle07 {
+	color: rgb(102, 102, 102); font-size: 11px !important; border-top-color: rgb(202, 202, 202); border-right-color: rgb(202, 202, 202); border-left-color: rgb(202, 202, 202); border-top-width: 1px; border-right-width: 0px; border-left-width: 0px; border-top-style: solid; border-right-style: solid; border-left-style: solid;
+}
+.tabstyle07 th {
+	padding: 2px; font-size: 11px !important; border-right-color: rgb(202, 202, 202); border-bottom-color: rgb(202, 202, 202); border-right-width: 1px; border-bottom-width: 1px; border-right-style: solid; border-bottom-style: solid;
+}
+.tabstyle07 td {
+	padding: 2px; border-right-color: rgb(202, 202, 202); border-bottom-color: rgb(202, 202, 202); border-right-width: 1px; border-bottom-width: 1px; border-right-style: solid; border-bottom-style: solid;
+}
+th.tabthdwn-bg {
+	background-position: left bottom !important;
+}
+.tabt_L {
+	border-left-color: rgb(193, 52, 52); border-left-width: 3px; border-left-style: solid;
+}
+.tabt_R {
+	border-right-color: rgb(193, 52, 52) !important; border-right-width: 3px !important; border-right-style: solid !important;
+}
+.tabt_L2 {
+	border-left-color: rgb(204, 204, 204); border-left-width: 2px; border-left-style: solid;
+}
+.tabt_D {
+	border-top-color: rgb(204, 204, 204); border-top-width: 2px; border-top-style: solid;
+}
+.tabt_unR {
+	border-right-style: none;
+}
+.tabt_unL {
+	border-left-color: rgb(51, 51, 51); border-left-width: 1px; border-left-style: solid;
+}
+.tabbox {
+	border: 1px solid rgb(193, 52, 52); width: 790px; clear: both;
+}
+.tabbox_F {
+	border: 1px solid rgb(255, 255, 255);
+}
+.tabtitbox span {
+	height: 28px; display: block; background-image: url("/images/titbgbox_a.gif"); background-repeat: no-repeat;
+}
+.tabtitbox {
+	background-position: right top; background-image: url("/images/titbgbox_b.gif"); background-repeat: no-repeat;
+}
+.tabbox_FB {
+	border: 2px solid rgb(255, 255, 255); background-image: url("/images/boxbg.gif"); background-repeat: repeat-x;
+}
+.tabbox_F1 {
+	border-style: solid solid none; border-top-color: rgb(255, 255, 255); border-right-color: rgb(255, 255, 255); border-left-color: rgb(255, 255, 255); border-top-width: 2px; border-right-width: 2px; border-left-width: 2px;
+}
+.msgtabbox {
+	padding: 5px 2px 1px; border: 0px solid rgb(232, 232, 232); width: 810px; clear: both; background-color: rgb(232, 232, 232);
+}
+.tabstyle02 td {
+	padding: 2px 4px; border-right-color: rgb(193, 52, 52); border-bottom-color: rgb(193, 52, 52); border-right-width: 1px; border-bottom-width: 1px; border-right-style: solid; border-bottom-style: solid;
+}
+.tableline_1 {
+	border-right-style: none; border-left-style: none;
+}
+.en_Point {
+	padding: 0px !important; text-align: center; color: rgb(142, 142, 142) !important; line-height: 1.5ex !important; font-size: 11px; font-weight: bold;
+}
+.ch_Point {
+	padding: 0px !important; text-align: center; color: rgb(142, 142, 142) !important; line-height: 1.5ex !important; font-size: 11px; font-weight: bold;
+}
+.ch_Point {
+	line-height: 2ex !important;
+}
+.tabcontbubig {
+	text-align: center; color: rgb(12, 87, 144) !important; font-size: 11px; font-weight: bold;
+}
+.tabcontbubig a {
+	text-align: center; color: rgb(12, 87, 144) !important; font-size: 11px; font-weight: bold;
+}
+.tabcontbkbig {
+	text-align: left; color: rgb(102, 102, 102) !important; font-size: 11px !important; font-weight: bold;
+}
+.tabcontbkbig a {
+	text-align: left; color: rgb(102, 102, 102) !important; font-size: 11px !important; font-weight: bold;
+}
+.tabcontrdbig {
+	text-align: center; color: rgb(255, 0, 0) !important; font-size: 11px; font-weight: bold;
+}
+.tabcontrdbig a {
+	text-align: center; color: rgb(255, 0, 0) !important; font-size: 11px; font-weight: bold;
+}
+.tabstyle06 th {
+	padding: 4px; text-align: left; color: rgb(76, 76, 76); font-size: 11px; font-weight: bold; vertical-align: top;
+}
+.tabstyle06 td {
+	padding: 4px; text-align: left; color: rgb(76, 76, 76); font-size: 11px; vertical-align: top;
+}
+.cont12oe {
+	color: rgb(255, 102, 0) !important; font-size: 12px !important;
+}
+.td_left {
+	float: left; display: inline-table;
+}
+.td_right {
+	float: right; display: inline;
+}
+.EarlyMarket_top_bg {
+	width: 100%; color: rgb(0, 0, 0); padding-top: 1px; padding-bottom: 4px; padding-left: 0px; font-size: 11px;
+}
+.Reslut_Head {
+	width: 100%; color: rgb(0, 0, 0); padding-top: 1px; padding-bottom: 4px; padding-left: 0px; font-size: 11px;
+}
+.Reslut_Head a {
+	width: 100%; color: rgb(0, 0, 0); padding-top: 1px; padding-bottom: 4px; padding-left: 0px; font-size: 11px;
+}
+.EarlyMarket_top_bg span {
+	background-position: left 4px; padding: 0px 2px 0px 10px; font-weight: bold; margin-top: 3px; margin-left: 10px; display: inline-block; background-image: url("/images/arrow_blue.gif"); background-repeat: no-repeat;
+}
+.EarlyMarket_top_bg span.Current {
+	color: rgb(160, 3, 3);
+}
+.DBetlist {
+	height: 20px; line-height: 20px; font-size: 11px; background-color: rgb(232, 232, 232);
+}
+.DBetlist1 {
+	font-size: 11px; background-color: rgb(232, 232, 232);
+}
+.tabcontbu {
+	color: rgb(102, 102, 102);
+}
+.tabcontbu a {
+	color: rgb(102, 102, 102);
+}
+.tabcontrd {
+	color: rgb(235, 99, 7);
+}
+.tabcontrd a {
+	color: rgb(235, 99, 7);
+}
+.tabcontrd span {
+	color: rgb(235, 99, 7);
+}
+.tabcontbk {
+	color: rgb(102, 102, 102); font-weight: bold;
+}
+.tabcontbk a {
+	color: rgb(102, 102, 102); font-weight: bold;
+}
+.tabcontbk span {
+	color: rgb(102, 102, 102); font-weight: bold;
+}
+.tabcontwh {
+	color: rgb(255, 255, 255); font-weight: bold;
+}
+.tabcontwh a {
+	color: rgb(255, 255, 255); font-weight: bold;
+}
+.tabcontwh span {
+	color: rgb(255, 255, 255); font-weight: bold;
+}
+.b11_bl {
+	color: rgb(160, 3, 3); padding-left: 5px; font-family: Arial, Helvetica, sans-serif, Tahoma; font-size: 13px; font-weight: bold;
+}
+.b11_b2 {
+	color: rgb(102, 102, 102); font-family: Arial, Helvetica, sans-serif, Tahoma; font-size: 11px;
+}
+.ajxbox {
+	background-position: top; padding: 10px; border: 2px solid rgb(46, 76, 130); background-image: url("/images/ajx_bg.jpg"); background-repeat: repeat-x;
+}
+.ajxbox h1 {
+	color: rgb(2, 35, 82); line-height: 20px; text-indent: 20px; padding-bottom: 5px; font-size: 15px; font-weight: bold; margin-top: 0px; margin-bottom: 15px; border-bottom-color: rgb(186, 205, 225); border-bottom-width: 1px; border-bottom-style: solid; display: block; background-image: url("/images/ajx_icon.gif"); background-repeat: no-repeat;
+}
+.ipColor {
+	color: rgb(102, 102, 102); font-size: 10px; font-weight: bold;
+}
+.text_blue11 {
+	color: rgb(43, 89, 25); font-size: 11px;
+}
+.MessageHistory {
+	color: rgb(102, 102, 102); font-family: Arial, Helvetica, sans-serif, Tahoma; font-size: 12px;
+}
+.miniver_en a {
+	background-position: -3px -2px; width: 80px; height: 18px; margin-top: 5px; margin-left: 6px; float: left; display: block; cursor: pointer; background-image: url("/images/oddmini.gif"); background-repeat: no-repeat;
+}
+.miniver_en a:hover {
+	background-position: -86px -2px;
+}
+.miniver_en a span {
+	display: none;
+}
+.maxiver_en a {
+	background-position: -3px -21px; width: 80px; height: 18px; margin-top: 5px; margin-left: 6px; float: left; display: block; cursor: pointer; background-image: url("/images/oddmini.gif"); background-repeat: no-repeat;
+}
+.maxiver_en a:hover {
+	background-position: -86px -21px;
+}
+.maxiver_en a span {
+	display: none;
+}
+.miniver_it a {
+	background-position: -3px -2px; width: 80px; height: 18px; margin-top: 5px; margin-left: 6px; float: left; display: block; cursor: pointer; background-image: url/public/oddmini.gif"); background-repeat: no-repeat;
+}
+.miniver_it a:hover {
+	background-position: -86px -2px;
+}
+.miniver_it a span {
+	display: none;
+}
+.maxiver_it a {
+	background-position: -3px -21px; width: 80px; height: 18px; margin-top: 5px; margin-left: 6px; float: left; display: block; cursor: pointer; background-image: url("/public/oddmini.gif"); background-repeat: no-repeat;
+}
+.maxiver_it a:hover {
+	background-position: -86px -21px;
+}
+.maxiver_it a span {
+	display: none;
+}
+.miniver_jp a {
+	background-position: -3px -2px; width: 80px; height: 18px; margin-top: 5px; margin-left: 6px; float: left; display: block; cursor: pointer; background-image: url("/public/oddmini.gif"); background-repeat: no-repeat;
+}
+.miniver_jp a:hover {
+	background-position: -86px -2px;
+}
+.miniver_jp a span {
+	display: none;
+}
+.maxiver_jp a {
+	background-position: -3px -21px; width: 80px; height: 18px; margin-top: 5px; margin-left: 6px; float: left; display: block; cursor: pointer; background-image: url("/public/oddmini.gif"); background-repeat: no-repeat;
+}
+.maxiver_jp a:hover {
+	background-position: -86px -21px;
+}
+.maxiver_jp a span {
+	display: none;
+}
+.miniver_ch a {
+	background-position: -3px -40px; width: 64px; height: 18px; margin-top: 5px; margin-left: 6px; float: left; display: block; cursor: pointer; background-image: url("/public/oddmini.gif"); background-repeat: no-repeat;
+}
+.miniver_ch a:hover {
+	background-position: -86px -40px;
+}
+.miniver_ch a span {
+	display: none;
+}
+.maxiver_ch a {
+	background-position: -3px -59px; width: 64px; height: 18px; margin-top: 5px; margin-left: 6px; float: left; display: block; cursor: pointer; background-image: url("/images/oddmini.gif"); background-repeat: no-repeat;
+}
+.maxiver_ch a:hover {
+	background-position: -86px -59px;
+}
+.maxiver_ch a span {
+	display: none;
+}
+.miniver_cs a {
+	background-position: -3px -78px; width: 64px; height: 18px; margin-top: 5px; margin-left: 6px; float: left; display: block; cursor: pointer; background-image: url("/images/oddmini.gif"); background-repeat: no-repeat;
+}
+.miniver_cs a:hover {
+	background-position: -86px -78px;
+}
+.miniver_cs a span {
+	display: none;
+}
+.maxiver_cs a {
+	background-position: -3px -59px; width: 64px; height: 18px; margin-top: 5px; margin-left: 6px; float: left; display: block; cursor: pointer; background-image: url("/images/oddmini.gif"); background-repeat: no-repeat;
+}
+.maxiver_cs a:hover {
+	background-position: -86px -59px;
+}
+.maxiver_cs a span {
+	display: none;
+}
+.miniver_th a {
+	background-position: -3px -116px; width: 64px; height: 18px; margin-top: 5px; margin-left: 6px; float: left; display: block; cursor: pointer; background-image: url("/images/oddmini.gif"); background-repeat: no-repeat;
+}
+.miniver_th a:hover {
+	background-position: -86px -116px;
+}
+.miniver_th a span {
+	display: none;
+}
+.maxiver_th a {
+	background-position: -3px -135px; width: 64px; height: 18px; margin-top: 6px; margin-left: 6px; float: left; display: block; cursor: pointer; background-image: url("/images/oddmini.gif"); background-repeat: no-repeat;
+}
+.maxiver_th a:hover {
+	background-position: -86px -135px;
+}
+.maxiver_th a span {
+	display: none;
+}
+.sorting {
+	margin-top: 2px; float: left; display: inline-block;
+}
+.messagesp {
+	color: rgb(102, 102, 102); font-size: 11px;
+}
+.message {
+	color: rgb(102, 102, 102); padding-top: 2px; font-size: 11px;
+}
+.message a {
+	color: rgb(102, 102, 102) !important; padding-bottom: 4px; text-decoration: none !important;
+}
+.message a:hover {
+	color: rgb(235, 99, 7) !important;
+}
+.message .active {
+	color: rgb(235, 99, 7) !important; font-weight: bold;
+}
+.textor a {
+	color: rgb(255, 102, 0); font-weight: bold;
+}
+.none_rline {
+	border-right-style: none !important;
+}
+.title_border {
+	background-color: rgb(239, 239, 239);
+}
+.tmpl_border {
+	background-color: rgb(239, 239, 239);
+}
+.title_border {
+	padding: 1px 0px 0px 0px; border-radius: 4px 4px 0px 0px; width: 100%; -webkit-border-radius: 4px 4px 0px 0px; -moz-border-radius: 4px 4px 0px 0px;
+}
+.tmpl_border {
+	width: 792px; display: inline-block;
+}
+.info a {
+	background-position: 1px; width: 22px !important; height: 12px; color: rgb(255, 255, 255) !important; padding-right: 5px; padding-left: 10px !important; font-size: 12px; margin-top: 2px; margin-left: 10px; background-image: url("/images/horse_info2.gif"); background-repeat: no-repeat;
+}
+.info a:hover {
+	background-position: 1px; width: 22px !important; height: 12px; color: rgb(255, 255, 255) !important; padding-right: 5px; padding-left: 10px !important; font-size: 12px; margin-top: 2px; margin-left: 10px; background-image: url("/images/horse_info1.gif"); background-repeat: no-repeat;
+}
+.league02 {
+	margin: 0px; border: 1px solid rgb(203, 203, 203); color: rgb(102, 102, 102); font-size: 11px; background-color: rgb(255, 255, 255);
+}
+.league02 th {
+	padding: 5px; color: rgb(0, 0, 0); font-size: 11px; font-weight: bold;
+}
+.league03 th {
+	padding: 2px 2px 2px 20px; color: rgb(255, 255, 255); font-size: 13px; font-weight: bold; background-color: rgb(74, 94, 144);
+}
+.Leaguename a {
+	padding: 0px; width: 97%; color: rgb(102, 102, 102); font-family: Arial, Helvetica, sans-serif, Tahoma; font-size: 11px; display: block;
+}
+.Leaguename a:hover {
+	color: rgb(255, 255, 255); background-color: rgb(74, 94, 144);
+}
+.Leaguename span {
+	font-weight: normal;
+}
+.date_close {
+	background-position: 5px; height: 20px; text-indent: 20px; padding-top: 5px; font-size: 12px; font-weight: bold; border-bottom-color: rgb(255, 255, 255); border-bottom-width: 1px; border-bottom-style: solid; display: block; background-image: url("/images/date_close.gif"); background-repeat: no-repeat; background-color: rgb(74, 94, 144);
+}
+.date_close a {
+	color: rgb(154, 185, 215) !important;
+}
+.date_close a:hover {
+	color: rgb(255, 255, 255) !important; margin-top: 10px;
+}
+.date_open {
+	background-position: 5px; height: 20px; color: rgb(255, 255, 255); text-indent: 20px; padding-top: 5px; font-size: 12px; font-weight: bold; display: block; background-image: url("/images/date_open.gif"); background-repeat: no-repeat; background-color: rgb(74, 94, 144);
+}
+.date_open a {
+	color: rgb(255, 255, 255) !important;
+}
+.date_open a:hover {
+	color: rgb(255, 255, 255) !important;
+}
+.teamname_bg {
+	height: 22px; color: rgb(29, 43, 77); text-indent: 5px; padding-top: 6px; font-family: Arial, Helvetica, sans-serif, Tahoma; font-size: 12px; font-weight: bold; display: block; background-image: url("/images/teamname_bg.gif"); background-repeat: repeat-x;
+}
+.time {
+	text-align: center; color: rgb(129, 129, 129); font-family: Arial, Helvetica, sans-serif, Tahoma; font-size: 10px;
+}
+.odds_bg {
+	height: 10px; padding-right: 4px !important; padding-left: 4px !important; background-color: rgb(210, 210, 210);
+}
+.oddslive_bg {
+	height: 10px; padding-right: 4px !important; padding-left: 4px !important; background-color: rgb(250, 218, 195);
+}
+.odds_bg td {
+	color: rgb(255, 255, 255) !important; font-weight: bold !important; background-color: rgb(74, 94, 144) !important;
+}
+.bb123 {
+	display: block !important;
+}
+.bb123 a:hover {
+	color: rgb(255, 255, 255) !important; font-weight: bold !important; background-color: rgb(74, 94, 144) !important;
+}
+.OEteam_name {
+	margin: 5px; width: 500px; height: 15px; color: rgb(51, 102, 153) !important; text-indent: 0px; padding-top: 3px; padding-right: 20px; font-weight: bolder !important; display: block; background-color: rgb(255, 255, 255) !important;
+}
+.oddslive {
+	color: rgb(181, 0, 0) !important;
+}
+.mixparlay_line {
+	height: 2px; margin-right: 8px; margin-left: 8px; background-image: url("/images/pop_line_bg.gif"); background-repeat: repeat-x;
+}
+.mixparlay_title {
+	color: rgb(102, 102, 102); font-size: 14px;
+}
+.TimeRange {
+	border-radius: 4px; border: 1px solid currentColor; height: 16px; line-height: 16px; padding-right: 4px; padding-left: 4px; font-size: 11px; margin-left: 4px; display: inline-block; white-space: nowrap; -webkit-border-radius: 4px; -moz-border-radius: 4px;
+}
+.TimeRange_y {
+	padding-left: 2px;
+}
+.TimeRange_w {
+	color: rgb(255, 255, 255);
+}
+.allTimebg {
+	color: rgb(255, 255, 255);
+}
+.allTimebg a {
+	color: rgb(255, 255, 255);
+}
+.TimeRange {
+	border-color: rgb(239, 183, 82); background-image: url("/images/time_bg.png"); background-repeat: repeat-x; background-color: rgb(234, 184, 31);
+}
+.allTimebg {
+	border-color: rgb(239, 183, 82); background-image: url("/images/time_bg.png"); background-repeat: repeat-x; background-color: rgb(234, 184, 31);
+}
+.TimeRange_y {
+	color: rgb(160, 1, 1) !important;
+}
+.allTimebg a:hover {
+	color: rgb(160, 1, 1) !important;
+}
+.allTimebg {
+	border-width: 1px; border-style: solid; border-radius: 4px; height: 20px; overflow: visible; padding-top: 2px; padding-right: 10px; padding-left: 10px; margin-top: 2px; display: block; position: relative; box-shadow: 0px 0px 5px #666666; -webkit-border-radius: 4px; -moz-border-radius: 4px;
+}
+.allTimebg a {
+	line-height: 20px; padding-top: 5px; font-size: 11px; font-weight: bold;
+}
+.allTimebg a:hover {
+	font-size: 11px; font-weight: bold;
+}
+.allTimebg span {
+	padding-right: 10px; padding-left: 10px; font-size: 9px;
+}
+.popUO3 {
+	padding: 3px; width: 250px; overflow: hidden; border-bottom-color: rgb(135, 153, 194); border-bottom-width: 1px; border-bottom-style: solid; background-color: rgb(55, 181, 255);
+}
+.popUO3 td {
+	padding: 5px; text-align: left; font-size: 11px;
+}
+.popUO3tab_bg {
+	padding: 5px; background-color: rgb(55, 181, 255);
+}
+.popUO3tab td {
+	border: 1px solid rgb(255, 255, 255); line-height: 15px; background-color: rgb(255, 255, 255);
+}
+.popUO3tab th {
+	line-height: 20px;
+}
+.font15_w {
+	color: rgb(255, 255, 255); font-size: 12px; font-weight: bold;
+}
+.font14_r {
+	text-align: center; color: rgb(102, 102, 102); font-size: 13px; font-weight: bold;
+}
+.HomeN {
+	color: rgb(204, 0, 0); font-size: 11px;
+}
+.HomeA {
+	color: rgb(0, 51, 153); font-size: 11px;
+}
+.more-win {
+	border: 5px solid rgb(255, 255, 255); min-width: 300px; background-color: rgb(251, 214, 80);
+}
+.league-box {
+	margin: 0px 5px 10px; padding: 0px 6px; width: 650px; text-align: center; _width: 670px; _padding: 0px; _margin: 0px 0px 10px 0px;
+}
+.more-box {
+	padding: 6px 6px 0px; width: 98%; text-align: center; margin-bottom: 10px;
+}
+.pop_line {
+	padding: 0px 6px; height: 2px; display: block; background-image: url("/images/pop_line_bg.gif"); background-repeat: repeat-x; _padding: 0px;
+}
+.popc-ctrl {
+	padding-right: 6px; cursor: pointer; _padding-right: 6px;
+}
+form {
+	margin: 0px;
+}
+.displayOff {
+	display: none !important;
+}
+.Alpha {
+	font-weight: normal; background-image: url("/images/Alpha.png"); background-repeat: repeat;
+}
+.score_box {
+	color: inherit; font-size: 11px; font-weight: normal !important;
+}
+.score_box .box02 {
+	font-weight: normal !important;
+}
+.score_box td {
+	padding: 0px !important;
+}
+.score_box .border {
+	padding: 0px; border: 1px solid currentColor; width: 32px; height: 29px; text-align: center;
+}
+.box01 .border {
+	font-weight: normal;
+}
+.score_box .border {
+	border-color: rgb(223, 194, 78);
+}
+.line_b {
+	border-color: rgb(223, 194, 78);
+}
+.line_b {
+	height: 14px; border-bottom-width: 1px; border-bottom-style: solid;
+}
+.Team_box {
+	padding-left: 0px;
+}
+.Team_box .FavTeamClass {
+	line-height: 16px; overflow: hidden; white-space: nowrap; -ms-text-overflow: ellipsis;
+}
+.Team_box .UdrDogTeamClass {
+	line-height: 16px; overflow: hidden; white-space: nowrap; -ms-text-overflow: ellipsis;
+}
+.img td {
+	padding: 2px !important; width: 13px; height: 13px;
+}
+.baseball_LS > .line_divL td div {
+	float: left;
+}
+.baseball_LS > .line_divL .border {
+	margin: 0px; padding: 0px 2px; height: 29px; line-height: 29px;
+}
+.baseball_LS > .line_divL td + td .border {
+	border-left-color: currentColor; border-left-width: medium; border-left-style: none;
+}
+.baseball_LS > .line_divR table {
+	width: 540px;
+}
+.baseball_LS > .line_divR .border {
+	margin: 0px 2px 0px 0px; width: 24px;
+}
+.baseball_LS1 .border {
+	line-height: 29px;
+}
+#PopDiv {
+	left: 260px; position: absolute; z-index: 20;
+}
+.border_bg {
+	padding: 0px; background-image: url("/images/horse_trbg.gif");
+}
+.border_bg .tabstyle02 td {
+	border: currentColor; line-height: 17px;
+}
+.rborder {
+	border-right-color: rgb(204, 204, 204); border-right-width: 2px; border-right-style: solid;
+}
+td.rborder + td.rborder + td.rborder + td.rborder + td.rborder {
+	border-right-color: currentColor; border-right-width: 0px; border-right-style: none;
+}
+.tabtitle a {
+	color: inherit;
+}
+.Races {
+	width: 156px; height: 20px; line-height: 20px; margin-bottom: 1px;
+}
+#HorseFutureRacesDiv .tabbox {
+	background-color: transparent;
+}
+#GreyhoundsFutureRacesDiv .tabbox {
+	background-color: transparent;
+}
+#HarnessFutureRacesDiv .tabbox {
+	background-color: transparent;
+}
+.ItemMessageList-Mid {
+	padding-left: 0px; font-size: 15px; font-weight: normal; position: absolute; z-index: 100; opacity: 0.6; background-color: rgb(247, 255, 255); -moz-opacity: 0.6;
+}
+.container {
+	left: 50%; top: 50%; width: 350px; height: 70px; color: rgb(136, 34, 34); font-size: 30px; margin-left: -125px; position: absolute;
+}
+.HelpBox {
+	padding: 5px 10px; width: 551px; font-size: 12px !important; position: relative;
+}
+.HelpBox .FavTeamClass {
+	font-size: 12px !important;
+}
+.PoiintLine {
+	left: -25px; top: 40%; width: 29px; height: 10px; display: block; position: absolute; background-image: url("/images/Point_line.png"); background-repeat: no-repeat;
+}
+.radius {
+	border-radius: 4px; -webkit-border-radius: 4px; -moz-border-radius: 4px;
+}
+.streamVirtual {
+	border: 1px solid rgb(203, 203, 203); width: 514px; padding-bottom: 0px; display: inline-block;
+}
+.virtual {
+	width: 100%; clear: both;
+}
+.streamVideo {
+	margin: 0px 11px 8px; width: 491px; height: 394px;
+}
+.virtualTitle {
+	padding: 6px 10px; font-size: 11px; font-weight: bold;
+}
+.streamVirtual .virtualTitle {
+	padding: 11px 10px; height: 14px;
+}
+.matchVirtual {
+	width: 266px; height: 440px; vertical-align: top; display: inline-block;
+}
+.marchTitle {
+	padding: 8px 10px; height: 14px; text-align: left; font-size: 11px;
+}
+.virtualMarch td {
+	padding: 4px 8px; height: 20px; line-height: 20px;
+}
+.virtualMarch td a {
+	width: 177px; overflow: hidden; display: inline-block; white-space: nowrap; -ms-text-overflow: ellipsis;
+}
+.virtualMarch .IsLive {
+	font-size: 11px; font-weight: bold;
+}
+.virtualMarch .text_time {
+	font-size: 11px; font-weight: bold;
+}
+.virtualBox .tabbox_F {
+	border-width: 2px;
+}
+.EarlyMarket_top_bg .virtualBtn span {
+	padding: 0px; margin-top: 0px; margin-left: 0px; background-image: none;
+}
+.virtualBtn {
+	margin-top: 6px; margin-right: 3px; float: right;
+}
+.Streamingtext {
+	padding: 20px; border-radius: 2px; left: 22px; width: 446px; height: 344px; font-size: 14px; border-right-color: rgb(255, 255, 255); border-bottom-color: rgb(255, 255, 255); border-right-width: 1px; border-bottom-width: 1px; border-right-style: solid; border-bottom-style: solid; position: absolute; box-shadow: -1px -1px 1px 0px #c3c3c3; -moz-box-shadow: -1px -1px 1px 0px #C3C3C3; -webkit-box-shadow: -1px -1px 1px 0px #C3C3C3;
+}
+.popupIcon {
+	vertical-align: middle;
+}
+.iconOdds {
+	margin: 0px 1px; width: 13px; height: 13px; line-height: 11px; display: inline-block; cursor: pointer; background-image: url("/images/iconLive_score1.gif"); background-repeat: no-repeat;
+}
+a:hover .iconOdds {
+	cursor: pointer;
+}
+.info.iconOdds {
+	
+}
+.off.info.iconOdds {
+	background-image: url("/images/iconLive_score2.gif");
+}
+.iconInfo {
+	width: 13px; height: 13px; vertical-align: middle; display: inline-block; background-image: url("/images/icon_info.png?v=20131008001"); background-repeat: no-repeat;
+}
+.clock.iconInfo {
+	
+}
+.baseball.iconInfo {
+	background-position: -15px top;
+}
+.football.iconInfo {
+	background-position: -30px top;
+}
+.hockey.iconInfo {
+	background-position: -45px top;
+}
+.hockeyPP.iconInfo {
+	background-position: -60px top;
+}
+.injury.iconInfo {
+	background-position: -75px top;
+}
+.point.iconInfo {
+	background-position: -90px top;
+}
+.rain.iconInfo {
+	background-position: -105px top;
+}
+.break.iconInfo {
+	background-position: -120px top;
+}
+.titleSection .control {
+	margin-top: 2px;
+}
+.titleSection > div > div {
+	width: auto; float: left;
+}
+.titleSection > div > a {
+	width: auto; float: left;
+}
+.titleSection > div > span {
+	width: auto; float: left;
+}
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}
+.clear {
+	clear: both;
+}
+.moreBetType {
+	padding: 8px 8px 0px !important; background-color: rgba(255, 255, 255, 0.6);
+}
+@media 
+{
+.moreBetType {
+	
+}
+}
+.MoreTable {
+	margin-bottom: 8px; position: relative;
+}
+.MoreTable > tbody > tr:first-child > td {
+	padding: 0px; border: currentColor;
+}
+.MoreTable .oddsTable th {
+	background-image: none;
+}
+.MoreTable td.tabtitle {
+	border-radius: 3px 3px 0px 0px !important; padding-left: 5px;
+}
+.MoreTable td + td {
+	padding-left: 10px !important;
+}
+.MoreTable .oddsTable td + td {
+	padding-left: 4px !important;
+}
+.MoreTable td[class='displayOff'] + td {
+	padding-left: 0px !important;
+}
+.percent.dropDown {
+	margin: 4px 0px 4px 4px; width: 92%; float: none;
+}
+.en_Point {
+	background: linear-gradient(rgb(119, 160, 229) 0%, rgb(76, 103, 157) 100%); padding: 0px 15px 0px 6px !important; border-radius: 2px; height: 14px; color: rgb(255, 255, 255) !important; line-height: 14px !important; font-size: 11px; font-weight: normal; text-decoration: none; display: inline-block; position: relative; cursor: pointer; -webkit-border-radius: 2px; -moz-border-radius: 2px;
+}
+.ch_Point {
+	background: linear-gradient(rgb(119, 160, 229) 0%, rgb(76, 103, 157) 100%); padding: 0px 15px 0px 6px !important; border-radius: 2px; height: 14px; color: rgb(255, 255, 255) !important; line-height: 14px !important; font-size: 11px; font-weight: normal; text-decoration: none; display: inline-block; position: relative; cursor: pointer; -webkit-border-radius: 2px; -moz-border-radius: 2px;
+}
+.ch_Point {
+	height: 14px; line-height: 15px !important;
+}
+.off.en_Point {
+	background: linear-gradient(rgb(172, 172, 172) 0%, rgb(141, 141, 141) 100%); color: rgb(255, 255, 255) !important;
+}
+.off.ch_Point {
+	background: linear-gradient(rgb(172, 172, 172) 0%, rgb(141, 141, 141) 100%); color: rgb(255, 255, 255) !important;
+}
+.IconMore {
+	width: 13px; height: 13px; line-height: 11px; display: inline-block; cursor: pointer; background-image: url("/images/plus.gif"); background-repeat: no-repeat;
+}
+.off.IconMore {
+	background-image: url("/images/plusOv.png");
+}
+.en_Point::before {
+	background-position: 0px 1px; top: 2px; width: 9px; height: 9px; right: 3px; overflow: hidden; display: block; position: absolute; content: ""; background-image: url("/images/icon_OpenClose.png"); background-repeat: no-repeat;
+}
+.ch_Point::before {
+	background-position: 0px 1px; top: 2px; width: 9px; height: 9px; right: 3px; overflow: hidden; display: block; position: absolute; content: ""; background-image: url("/images/icon_OpenClose.png"); background-repeat: no-repeat;
+}
+.off.en_Point::before {
+	background-position: 0px -8px;
+}
+.off.ch_Point::before {
+	background-position: 0px -8px;
+}

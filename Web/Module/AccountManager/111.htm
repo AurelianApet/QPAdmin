@@ -1,0 +1,354 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <title></title>
+    <link href="../../Css/layout.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="../../Js/common.js"></script>
+    <script type="text/javascript" src="../../Js/comm.js"></script>
+    <script type="text/javascript" src="../../Js/Check.js"></script>
+    <script type="text/javascript" src="../../Js/Calendar.js"></script>
+    <script type="text/javascript" src="../../Js/Sort.js"></script>
+    <script type="text/javascript" src="../../Js/My97DatePicker/WdatePicker.js"></script>
+    <script type="text/javascript">
+    function setAction(type)
+    {
+        if(type==1)
+        {
+            document.getElementById("form2").action="?action=save";
+            document.getElementById("oneAdd").style.display="";
+            document.getElementById("moreAdd").style.display="none";
+        }
+        if(type==2)
+        {
+            document.getElementById("form2").action="?action=savemore";
+            document.getElementById("oneAdd").style.display="none";                                                        
+            document.getElementById("moreAdd").style.display="";
+        }
+    }
+    </script>
+</head>
+<body>
+   <!-- 头部菜单 Start -->
+    <table width="100%" border="0" cellpadding="0" cellspacing="0" class="title">
+        <tr>
+            <td width="19" height="25" valign="top"  class="Lpd10"><div class="arr"></div></td>
+            <td width="1232" height="25" valign="top" align="left">目前操作功能：增加机器人</td>
+        </tr>
+    </table>
+    <!-- 头部菜单 End -->
+    
+    <form name="form2" id="form2" method="post" action="">
+        <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+            <tr>
+                <td class="titleOpBg Lpd10">
+                    <input type="button" class="btn wd1" onclick="Redirect('AndroidUserInfo.asp')" value="返回" />   
+                    <input type="submit" value="保存" class="btn wd1" onclick="return CheckCounts();"/>   
+                   
+                </td>
+            </tr>
+        </table>
+        <table  width="100%" class="listBg2" cellpadding="0" cellspacing="0">
+            <tr>
+                 <td class="listTdLeft">
+                    新增方式：
+                </td>
+                <td>
+                    <input type="radio" name="rb" id="rb1" value="单笔新增" checked="checked" onclick="setAction('1')" /><label for="rb1">单笔新增</label>
+                    <input type="radio" name="rb" id="rb2" value="批量新增" onclick="setAction('2')"/><label for="rb2">批量新增</label>
+                </td>
+            </tr>
+        </table>
+        <table id="oneAdd" width="100%" class="listBg2" cellpadding="0" cellspacing="0" >
+            <tr>
+                <td class="listTdLeft">
+                    请填入机器人名：
+                </td>
+                <td>
+                    <input type="text" name="Accounts" id="Accounts" class="text" style="width: 150px" />
+                </td>
+            </tr>
+            <tr>
+                <td class="listTdLeft">
+                    请选择游戏房间：
+                </td>
+                <td>
+                     <select name="RoomID" id="Select1" style="width:157px;">
+                     
+                    <option value="26,27,QPTreasureDB">欢乐斗地主</option>
+                    
+                    <option value="122,28,QPTreasureDB">新百家乐</option>
+                    
+                    <option value="200,29,QPTreasureDB">斗地主</option>
+                    
+                    <option value="1000,30,QPTreasureDB">按钮五张</option>
+                    
+                    <option value="106,31,QPTreasureDB">百人牌九</option>
+                    
+                    <option value="11,32,QPTreasureDB">扯旋</option>
+                    
+                    <option value="120,33,QPTreasureDB">百人二八杠</option>
+
+                    
+                    <option value="104,34,QPTreasureDB">百人牛牛</option>
+                    
+                    <option value="105,35,QPTreasureDB">两张</option>
+                    
+                    <option value="108,36,QPTreasureDB">碰碰车</option>
+                    
+                    <option value="307,37,QPTreasureDB">温州麻将</option>
+                    
+                    <option value="302,39,QPTreasureDB">血战麻将</option>
+                    
+                    <option value="1000,40,QPTreasureDB">按钮五张</option>
+                    
+                    <option value="106,41,QPTreasureDB">百人牌九</option>
+                    
+                    <option value="11,42,QPTreasureDB">扯旋</option>
+                    
+                    <option value="200,43,QPTreasureDB">斗地主</option>
+                    
+                    <option value="120,44,QPTreasureDB">百人二八杠</option>
+                    
+                    <option value="104,45,QPTreasureDB">百人牛牛</option>
+                    
+                    <option value="26,46,QPTreasureDB">欢乐斗地主</option>
+                    
+                    <option value="105,47,QPTreasureDB">两张</option>
+                    
+                    <option value="108,48,QPTreasureDB">碰碰车</option>
+                    
+                    <option value="307,49,QPTreasureDB">温州麻将</option>
+                    
+                    <option value="302,50,QPTreasureDB">血战麻将</option>
+                    
+                    <option value="122,51,QPTreasureDB">新百家乐</option>
+                    
+                    <option value="124,52,QPTreasureDB">神兽大转盘</option>
+                    
+                    <option value="1009,54,QPTreasureDB">飞禽走兽</option>
+                    
+                    <option value="200,55,QPTreasureDB">斗地主</option>
+                    
+                    <option value="107,56,QPTreasureDB">百人龙虎斗</option>
+                    
+                    <option value="13,57,QPTreasureDB">摇骰子</option>
+                    
+                    <option value="101,58,QPTreasureDB">牛牛</option>
+                    
+                    <option value="3,59,QPTreasureDB">德州扑克</option>
+                    
+                    <option value="6,60,QPTreasureDB">诈金花</option>
+                    
+                    <option value="114,61,QPTreasureDB">百人跑马</option>
+                    
+                    <option value="500,62,QPTreasureDB">深海捕鱼</option>
+                    
+                  </select>
+                   
+                </td>
+            </tr>
+        </table>
+         <table id="moreAdd"  width="100%" style="display:none;" class="listBg2" cellpadding="0" cellspacing="0">
+             <tr>
+                <td class="listTdLeft">
+                    请填入新增机器人个数：
+                </td>
+                <td style="height: 24px;">
+                    <input type="text" id="counts" name="counts" class="text"  style="width: 150px" />
+                    
+                    </td>
+                    </tr>
+                    <tr>
+                    <td class="listTdLeft">
+                    请选择游戏房间：
+                    </td>
+                    <td>
+                   <select name="RoomID2" id="Select2" >
+                   
+                  <option value="26,27,QPTreasureDB">欢乐斗地主欢乐斗地主</option>
+                  
+                  <option value="122,28,QPTreasureDB">新百家乐新百家乐</option>
+                  
+                  <option value="200,29,QPTreasureDB">斗地主斗地主</option>
+                  
+                  <option value="1000,30,QPTreasureDB">按钮五张按钮五张</option>
+                  
+                  <option value="106,31,QPTreasureDB">百人牌九百人牌九</option>
+                  
+                  <option value="11,32,QPTreasureDB">扯旋扯旋</option>
+                  
+                  <option value="120,33,QPTreasureDB">二八扛百人二八杠</option>
+                  
+                  <option value="104,34,QPTreasureDB">虎虎生威百人牛牛</option>
+                  
+                  <option value="105,35,QPTreasureDB">两张游戏两张</option>
+                  
+                  <option value="108,36,QPTreasureDB">碰碰车碰碰车</option>
+                  
+                  <option value="307,37,QPTreasureDB">温州麻将温州麻将</option>
+                  
+                  <option value="302,39,QPTreasureDB">血战麻将血战麻将</option>
+                  
+                  <option value="1000,40,QPTreasureDB">按钮五张按钮五张</option>
+                  
+                  <option value="106,41,QPTreasureDB">百人牌九百人牌九</option>
+                  
+                  <option value="11,42,QPTreasureDB">扯旋扯旋</option>
+                  
+                  <option value="200,43,QPTreasureDB">斗地主斗地主</option>
+                  
+                  <option value="120,44,QPTreasureDB">二八扛百人二八杠</option>
+                  
+                  <option value="104,45,QPTreasureDB">虎虎生威百人牛牛</option>
+                  
+                  <option value="26,46,QPTreasureDB">欢乐斗地主欢乐斗地主</option>
+                  
+                  <option value="105,47,QPTreasureDB">两张游戏两张</option>
+                  
+                  <option value="108,48,QPTreasureDB">碰碰车碰碰车</option>
+                  
+                  <option value="307,49,QPTreasureDB">温州麻将温州麻将</option>
+                  
+                  <option value="302,50,QPTreasureDB">血战麻将血战麻将</option>
+                  
+                  <option value="122,51,QPTreasureDB">新百家乐新百家乐</option>
+                  
+                  <option value="124,52,QPTreasureDB">神兽大转盘神兽大转盘</option>
+                  
+                  <option value="1009,54,QPTreasureDB">飞禽走兽飞禽走兽</option>
+                  
+                  <option value="200,55,QPTreasureDB">斗地主斗地主</option>
+                  
+                  <option value="107,56,QPTreasureDB">百人龙虎斗百人龙虎斗</option>
+                  
+                  <option value="13,57,QPTreasureDB">摇骰子摇骰子</option>
+                  
+                  <option value="101,58,QPTreasureDB">牛牛牛牛</option>
+                  
+                  <option value="3,59,QPTreasureDB">德州扑克德州扑克</option>
+                  
+                  <option value="6,60,QPTreasureDB">扎金花诈金花</option>
+                  
+                  <option value="114,61,QPTreasureDB">百人跑马百人跑马</option>
+                  
+                  <option value="500,62,QPTreasureDB">捕鱼深海捕鱼</option>
+                  
+		          </select>
+                      
+                </td>
+            </tr>
+        </table>
+        <table id="Table1"  width="100%" class="listBg2" cellpadding="0" cellspacing="0">
+            <tr>
+                <td class="listTdLeft">最少局数：</td>
+                <td>
+                    <input name="MinPlayDraw" type="text" class="text" />    
+                </td>
+            </tr>
+            <tr>
+                <td class="listTdLeft">最大局数：</td>
+                <td>
+                    <input name="MaxPlayDraw" type="text" class="text" />           
+                </td>
+            </tr>
+            <tr>
+                <td class="listTdLeft">最少分数：</td>
+                <td>
+                    <input name="MinTakeScore" type="text" class="text" />              
+                </td>
+            </tr>
+            <tr>
+                <td class="listTdLeft">最高分数：</td>
+                <td>
+                    <input name="MaxTakeScore" type="text" class="text" />              
+                </td>
+            </tr>
+            <tr>
+                <td class="listTdLeft">最少休息：</td>
+                <td>
+                    <input name="MinReposeTime" type="text" class="text" />              
+                </td>
+            </tr>
+            <tr>
+                <td class="listTdLeft">最大休息：</td>
+                <td>
+                    <input name="MaxReposeTime" type="text" class="text" />              
+                </td>
+            </tr>
+            <tr>
+                <td class="listTdLeft">开始时间：</td>
+                <td>
+                    <input name="StartServiceTime" id="StartServiceTime" type="text" class="text"/><img src="../../Images/btn_calendar.gif" onclick="WdatePicker({el:'StartServiceTime',skin:'whyGreen',dateFmt:'yyyy-MM-dd HH:mm:ss'})" style="cursor:pointer;vertical-align:middle"/>                   
+                </td>
+            </tr>
+            <tr>
+                <td class="listTdLeft">结束时间：</td>
+                <td>
+                    <input name="CloseServiceTime" id="CloseServiceTime" type="text" class="text" /><img src="../../Images/btn_calendar.gif" onclick="WdatePicker({el:'CloseServiceTime',skin:'whyGreen',dateFmt:'yyyy-MM-dd HH:mm:ss'})" style="cursor:pointer;vertical-align:middle"/>                  
+                </td>
+            </tr>
+            <tr>
+                <td class="listTdLeft">服务类型：</td>
+                <td>
+                    <input name="ServiceGender" type="text" class="text" />              
+                </td>
+            </tr>
+            <tr>
+                <td class="listTdLeft">备注信息：</td>
+                <td>
+                    <input name="AndroidNote" type="text" class="text" />              
+                </td>
+            </tr>
+            <tr>
+                <td class="listTdLeft">禁用状态：</td>
+                <td>
+                    <input name="in_Nullity" id="Checkbox1" type="radio" value="0" checked="checked" /><label for="Checkbox1">启用</label> 
+                    <input name="in_Nullity" id="Checkbox2" type="radio" value="1" /><label for="Checkbox2">冻结</label> 
+                </td>
+            </tr>
+        </table>
+        <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+            <tr>
+                <td class="titleOpBg Lpd10">
+                    <input type="button" class="btn wd1" onclick="Redirect('AndroidUserInfo.asp')" value="返回" />   
+                    <input type="submit" value="保存" class="btn wd1" onclick="return CheckCounts();" />  
+                 
+                </td>
+            </tr>
+        </table>
+    </form>
+   
+</body>
+</html>
+<script type="text/javascript">
+    function CheckCounts()
+    {
+        var isType=IsPositiveInt( document.getElementById("counts").value);
+        var StartServiceTime = document.getElementById("StartServiceTime").value
+        var CloseServiceTime = document.getElementById("CloseServiceTime").value
+        if(document.getElementById("rb2").checked)
+        {
+            if(!isType)
+            {
+                alert("请输入整数！");
+                return false
+            }
+            return true;
+        }
+        
+        if(!isDateTime(StartServiceTime))
+        {
+            alert("开始时间格式不对！")
+            return false;
+        }
+        if(!isDateTime(CloseServiceTime))
+        {
+            alert("结束时间格式不对！")
+            return false;
+        }
+    }
+</script>
